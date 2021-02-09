@@ -84,3 +84,47 @@ a {
 .form-control:focus{
     box-shadow: none !important;
 }
+.bookmarks {
+    width: 400px;
+    font-family: sans-serif;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.col-md-4 {
+    width: 120px !important;
+    padding: none !important;
+}
+.site {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.site:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+}
+.site p {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.site .fa {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 12px;
+}
+.fa-envelope-o {
+    color: #ea4335;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
